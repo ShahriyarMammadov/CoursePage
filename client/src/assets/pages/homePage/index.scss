@@ -1,0 +1,307 @@
+#sec1 {
+  img {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+
+  h1 {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    color: white;
+    font-size: 72px;
+    font-weight: 400;
+    margin: 0 auto;
+
+    span {
+      background-color: #ffb606;
+    }
+  }
+}
+
+.header {
+  padding: 5% 0;
+  text-align: center;
+
+  .hr {
+    margin: 0 auto;
+    width: 70px;
+    height: 5px;
+    background-color: #ffb606;
+  }
+
+  h1 {
+    font-size: 35px;
+    margin-top: 16px;
+  }
+}
+
+.svg {
+  img {
+    width: 25%;
+  }
+}
+
+#sec2 {
+  padding-bottom: 4%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .cards {
+    display: flex;
+    gap: 3%;
+
+    a {
+      color: black;
+    }
+
+    .card {
+      .image {
+        img {
+          width: 360px;
+        }
+      }
+
+      .body {
+        text-align: center;
+        padding-top: 12%;
+
+        a {
+          color: black;
+          font-size: 22px;
+          font-weight: 600;
+        }
+
+        p {
+          font-size: 14px;
+          font-weight: 600;
+          color: rgb(165, 165, 165);
+          margin-top: 6px;
+        }
+      }
+
+      .user {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2%;
+        background-color: #eaebec;
+        padding-left: 5%;
+
+        img {
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+        }
+
+        .price {
+          background-color: #ffb606;
+          text-align: center;
+          width: 80px;
+          color: white;
+        }
+
+        p {
+          font-weight: 600;
+
+          span {
+            border: 0.5px solid red;
+            color: grey;
+          }
+        }
+      }
+    }
+  }
+}
+
+#sec3 {
+  display: flex;
+  height: 500px;
+  margin: 0 auto;
+
+  .left {
+    width: 50%;
+    background-color: #ffb606;
+    color: white;
+
+    .headerText {
+      width: 500px;
+      margin: 130px auto;
+      text-align: center;
+      line-height: 40px;
+
+      h1 {
+        font-size: 36px;
+        font-weight: 500;
+
+        span {
+          border: 0.5px solid red;
+          color: black;
+          font-weight: 600;
+        }
+      }
+
+      .text {
+        p {
+          font-weight: 500;
+          font-size: 14px;
+        }
+      }
+
+      button {
+        padding: 3% 0;
+        width: 40%;
+        background-color: #1a1a1a;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.5s;
+        border: none;
+
+        &:hover {
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+            rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        }
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    background-image: url("https://preview.colorlib.com/theme/course/images/search_background.jpg");
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.7;
+
+    .headerText {
+      margin: 0 auto;
+      text-align: center;
+
+      .inputs {
+        display: flex;
+        flex-direction: column;
+        border: none;
+
+        input {
+          margin-top: 25px;
+          padding: 15px;
+          box-sizing: border-box;
+          width: 500px;
+
+          &:focus {
+            outline: none;
+            border: 3px solid #ffb606;
+          }
+        }
+
+        button {
+          background-color: #ffb606;
+          border: none;
+          font-size: 16px;
+          color: white;
+          margin: 0 auto;
+          margin-top: 25px;
+          padding: 3% 0;
+          width: 100%;
+          transition: all 0.6s;
+
+          &:hover {
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+              rgba(0, 0, 0, 0.22) 0px 15px 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#sec4 {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .header {
+    padding-bottom: 0;
+  }
+
+  .serviceCard {
+    .cardTop {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10%;
+
+      .card {
+        width: 20%;
+        margin-top: 5%;
+
+        .text {
+          p {
+            color: rgb(165, 165, 165);
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#sec5 {
+  padding-bottom: 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .header {
+    padding-bottom: 1%;
+  }
+
+  .eventsCard {
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 25px;
+
+      .date {
+        text-align: center;
+        color: #ffb606;
+        border: 3px solid #ffb606;
+        padding: 0.5%;
+        font-size: 20px;
+      }
+
+      .about {
+        padding: 2% 5%;
+      }
+
+      img {
+        width: 90%;
+      }
+
+      .about {
+        .textHeader {
+          a {
+            color: black;
+            font-size: 25px;
+            font-weight: 600;
+          }
+
+          p {
+            margin-top: 2px;
+            font-weight: 500;
+            color: black;
+          }
+        }
+
+        p {
+          color: grey;
+        }
+      }
+    }
+  }
+}
